@@ -1,0 +1,26 @@
+{
+  "name": "taiger-q1",
+  "version": "1.0.0",
+  "description": "question 1",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0binxu/taiger-q1.git"
+  },
+  "author": "Robin Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0binxu/taiger-q1/issues"
+  },
+  "homepage": "https://github.com/r0binxu/taiger-q1#readme",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
