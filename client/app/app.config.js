@@ -2,7 +2,7 @@
     angular
         .module("App")
         .config(appConfig)
-    anvConfig.$inject = ["$stateProvider", "$urlRouterProvider"];
+    appConfig.$inject = ["$stateProvider", "$urlRouterProvider"];
 
 
     function appConfig($stateProvider, $urlRouterProvider) {
