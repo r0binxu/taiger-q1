@@ -1,0 +1,41 @@
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="/assets/blankpropic.png" style="height: 120% ">
+            </a>
+            <p class="navbar-text">Viewing {{ctrl.name}}'s Projects</p>
+
+            </div>
+
+
+            <form class="navbar-form navbar-left" name="usernameForm" ng-submit="usernameForm.$valid && ctrl.getUserRepos()" novalidate autocomplete="off">
+                    <div class="form-group">
+                      <input type="text" ng-model="ctrl.github_username" class="form-control" placeholder="Github Username" required>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+
+            <ul class="nav navbar-nav navbar-right">                 
+                    <li><a ui-sref="auth">Back</a></li>
+            </ul>
+
+
+            
+
+        </div>
+</nav>
+
+<div class="row">
+
+        <div  ui-view="content"></div>
+
+
+
+    
+ </div>
+ <!-- <div class="row">
+        <div  ui-view="readme"></div>
+
+ </div> -->

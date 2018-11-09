@@ -8,6 +8,8 @@
 
         ctrl.teamMembers = "";
 
+        this.$onInit = function(){
+
         RequestSvc.team()
         .then(function(res){
             console.log('res is: ' + JSON.stringify(res));
@@ -16,6 +18,14 @@
         .catch(function(err){
 
         })
+
+        }
+
+        ctrl.viewMember = function(item){
+            console.log('member name: '  + item.name)
+
+            $state.go('nav.member', {name: item.name})
+        }
 
 
 
