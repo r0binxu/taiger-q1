@@ -1,5 +1,5 @@
-# taiger-q1
-Question 1 - Micro Project
+# Question 1 - Micro Project
+
 
 ## Run Project 
 To run the project, execute:
