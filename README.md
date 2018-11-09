@@ -7,7 +7,7 @@ To run the project, execute:
 
 In browser go to url, "http://localhost:3005"
 
-## For Developement or Production
+## For Development or Production
 
 ### Production-ready
 1. run **grunt**
