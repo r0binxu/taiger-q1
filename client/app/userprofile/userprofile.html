@@ -1,0 +1,34 @@
+<div class="container">
+
+
+
+        <div class="row">
+            <div class="col-lg-3">
+                    <div class="list-group">
+                        <li class="list-group-item active"><b>Select repo below to view README</b>
+                        </li>
+                    </div>
+                    <div class="list-group" ng-repeat=" x in ctrl.repoList">
+                            <a ng-click="ctrl.selectrepo(x)" class="list-group-item ">
+                                    {{x.full_name}}
+                            </a>
+                           
+                        </div>
+            </div>
+            <div class="col-lg-9">
+                <br>
+                    <div class="well">
+                            <flash-message></flash-message>
+
+                        <div btf-markdown="markdown"></div>
+                    </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+

@@ -1,0 +1,32 @@
+{
+  "name": "taiger-q1",
+  "version": "1.0.0",
+  "description": "question 1",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "setup-app": "npm install && bower install && node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0binxu/taiger-q1.git"
+  },
+  "author": "Robin Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0binxu/taiger-q1/issues"
+  },
+  "homepage": "https://github.com/r0binxu/taiger-q1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-ng-annotate": "^3.0.0"
+  }
+}
