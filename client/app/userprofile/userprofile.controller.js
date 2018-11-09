@@ -16,10 +16,6 @@
 
         })
 
-        ctrl.avatar = $localStorage.userrepo[0].owner.avatar_url
-
-        // $scope.$emit('avatar', {name: ctrl.name});
-
 
         ctrl.selectrepo = function(item){
 

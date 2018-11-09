@@ -21,14 +21,12 @@
         }
 
         requestSvc.userRepos = function(username){
-            // var deferred = $q.defer();
             return $http({
                 method: 'GET'
                 , url: 'https://api.github.com/users/' + username + '/repos'
                 
             });
 
-            // return deferred.promise;
         }
 
 

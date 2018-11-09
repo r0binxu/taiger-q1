@@ -35,7 +35,6 @@
 
             })
             .catch(function(err){
-                console.log("error");
                 console.log("error" + JSON.stringify(err));
 
                 var message = 'Sorry, that username might not exists on Github. Please try again.';

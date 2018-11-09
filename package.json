@@ -21,5 +21,10 @@
     "express": "^4.16.4",
     "path": "^0.12.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-ng-annotate": "^3.0.0"
+  }
 }
