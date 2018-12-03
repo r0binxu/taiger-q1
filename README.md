@@ -1,5 +1,8 @@
 # Read Github Users Readme
 
+## About 
+This app allows you to read Github users' repo README. Happy reading! 
+
 
 ## Run Project 
 To run the project, execute:
