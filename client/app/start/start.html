@@ -1,36 +1,21 @@
 <div class="container">
-       
-    
-                <div class="col-sm-6 col-sm-offset-3 ">
-
-                        <div class="jumbotron" style="margin-top:30%;">
-                                <h2>Welcome!<br> Enter Github username to begin.</h2>
-                              
-
-                                <form name="submitForm" ng-submit="submitForm.$valid && ctrl.getUserRepos()" novalidate autocomplete="off">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" ng-model="ctrl.github_username" placeholder="Github Username" name="username" required>
-                            
-                                                    <div class="validation" data-ng-show="submitForm.$submitted">
-                                                            
-                                                <div data-ng-show="submitForm.username.$error.required">
-                                                    <span class="glyphicon glyphicon-alert"></span> Username is required
-                                                </div>
-                            
-                                            </div>
-                                        </div>
-                            
-                            
-                                        <flash-message></flash-message> 
-
-                                        <button type="submit" class="btn btn-primary btn-lg">View Repos</button>
-                                        
-                                        
-                                    </form>
-
-                              </div>
-                        
-                       
-    
+  <div class="col-sm-6 col-sm-offset-3 ">
+    <div class="jumbotron" style="margin-top:30%;">
+      <h2>Welcome!<br> Enter Github username to begin.</h2>
+      <form name="submitForm" ng-submit="submitForm.$valid && ctrl.getUserRepos()" novalidate autocomplete="off">
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="ctrl.github_username" placeholder="Github Username" name="username" required>
+            <div class="validation" data-ng-show="submitForm.$submitted">    
+              <div data-ng-show="submitForm.username.$error.required">
+                <span class="glyphicon glyphicon-alert"></span> Username is required
+              </div>          
+            </div>
+        </div>        
+        <flash-message></flash-message> 
+        <button type="submit" class="btn btn-primary btn-lg">View Repos</button>       
+      </form>
     </div>
+  </div>
+</div>
+
     
